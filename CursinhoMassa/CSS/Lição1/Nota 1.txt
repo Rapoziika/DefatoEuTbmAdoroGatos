@@ -1,0 +1,8 @@
+O que é o arquivo CSS
+Um arquivo CSS (Cascading Style Sheets) ou folha de estilos em cascata é uma linguagem utilizada para a definição de layouts em documentos HTML, controlando tamanho, margens, cores, bordas.
+
+Assim como no HTML qualquer alteração no código CSS deve ser salva para que, então, possa ser visualizada no navegador.
+
+O HTML também pode ser utilizado para a definição do layout (como era feito antigamente, através do uso de tabelas) porém esse uso é incorreto, hoje em dia temos a presença das normas de desenvolvimento para web, e você deve seguí-las para que assim possa obter um resultado parecido nos navegadores existentes.
+
+Esses padrões para desenvolvimentos, são definidos pelo W3C, um consórcio internacional no qual organizações filiadas, uma equipe em tempo integral e o público trabalham juntos para desenvolver padrões para a Web.

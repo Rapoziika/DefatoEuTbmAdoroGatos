@@ -1,0 +1,12 @@
+Edição de Texto
+Para a edição de textos o css apresenta diversas propriedades, veja algumas delas a seguir:
+
+color: define a cor do texto através do código hexadecimal, exemplo: #ff00ff.
+
+font-family: define a fonte que será utilizada no objeto, fontes que tenham espaço no nome, devem ser inseridas entre "aspas", e após o nome da fonte você poderá especificar se a fonte é ou não serifada (o que é fonte serifada?), para fontes serifadas utiliza-se o termo "serif" para fontes não serifadas, utiliza-se o termo "sans-serif" exemplo: "Lucida Sans", sans-serif.
+
+font-size: define o tamanho da fonte em px, exemplo: 12px.
+
+text-align: define o alinhamento do texto, seu valor pode ser: center para centralizar o texto, left para inserir o texto à esquerda, right para inserir à direita ou justify para justificar.
+
+text-decoration: define o estilo de decoração do texto, seu valor pode ser: line-through para que uma linha passe no meio do texto, none para que nenhuma decoração seja aplicada (útil para remover o sublinhado de links), overline para que uma linha passe acima do texto ou underline para o efeito sublinhado.

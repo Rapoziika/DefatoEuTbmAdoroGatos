@@ -1,0 +1,14 @@
+Tag
+Como já foi visto anteriormente, a tag <link> é responsável por linkar o arquivo CSS ao arquivo HTML, ela possuí três atributos responsáveis pelo funcionamento da tag eles são:
+
+rel=""
+
+type=""
+
+href=""
+
+O atributo rel, serve para definir a relação do arquivo que será linkado, no caso, o valor deverá ser "stylesheet" (folha de estilo).
+
+O atributo type, serve para definir o tipo do arquivo que será linkado, no caso, o valor deverá ser "text/css".
+
+O atributo href, define o nome/local que o arquivo css está, assim como feito com as imagens, se por exemplo o arquivo css se chamar estilo.css e estiver na mesma pasta da página que o irá utilizar o valor deverá ser "estilo.css", mas se o arquivo estivesse dentro de uma pasta chamada formatacao, o valor seria "formatacao/estilo.css""

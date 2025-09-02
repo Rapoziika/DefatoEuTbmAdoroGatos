@@ -1,0 +1,23 @@
+"Uma folha de estilos CSS é criada através de 4 possíveis definições, CLASSE, ID, TAG e COMPOSIÇÃO.
+
+A CLASSE pode ser aplicada em vários elementos HTML, quantas vezes for necessário, a criação de uma classe ocorre na definição do nome antecedido por um ponto final, veja a seguir a criação de uma classe, onde definiremos a fonte do texto, a cor e o tamanho: 
+
+A aplicação desta classe, poderia ser feita em um div, em um parágrafo em um span, onde fosse necessário, podendo ser repetida no documento, sua aplicação em um parágrafo seria feita da seguinte maneira: 
+
+O ID ao contrário da classe só pode ser aplicado em um elemento determinado da página, uma única vez, ou seja, deve ser único, não pode se repetir, a criação de um id ocorre na definição do nome antecedido por um sustenido (#), veja a seguir a criação de um id, onde definiremos a cor de fundo, a largura e as margens do objeto 
+
+O id é geralmente utilizado em áreas importantes da página, como a definição do corpo, do menu, do cabeçalho e etc, no exemplo acima nós criamos uma definição para o corpo da página, ela deve ser aplicada em um div, já que este por sua vez é uma espécie de container do HTML, veja a aplicação a seguir: 
+
+<div id=conteudo>
+	conteudo
+</div>
+
+A TAG serve basicamente para redefinir uma determinada tag HTML, ou seja, define a formação de uma tag, aplicando-a em todas as tags da página, para a definição de uma tag, basta inserir seu nome, e todas as tags da página seguirão sua formatação, veja a seguir a definição de uma imagem de fundo para a página, uma fonte padrão, uma cor e um tamanho de texto
+
+
+Como a tag redefine um elemento HTML, ela não precisa ser aplicada, o exemplo acima iria definir a formatação da tag body, ou seja do corpo da página, definindo uma fonte padrão e uma imagem de fundo.
+
+A COMPOSIÇÃO serve para definir a formatação de um determinado item que deve estar dentro de outro determinado item, para a definição de uma composição, você deve inserir primeiro o elemento principal e em seguida o elemento que realmente deseja editar, veja a seguir a definição de um parágrafo que deve estar dentro de uma tag com a id #conteudo
+
+
+A aplicação desta composição seria feita em um div com a id #conteudo e ela iria alterar todos os parágrafos presentes dentro deste div, ou seja, qualquer texto presente no div, só seria realmente alterado se estivesse dentro de um parágrafo:

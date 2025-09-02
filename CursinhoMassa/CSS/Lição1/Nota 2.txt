@@ -1,0 +1,11 @@
+Atualmente existem três (3) tipos de folhas de estilo, a INLINE, a EXTERNA e a INTERNA, veja a seguir a diferença entre as três agora.
+
+INLINE: Utilizando o estilo inline, você irá inserir os códigos CSS junto com o código HTML, dentro da própria tag alvo, utilizando o atributo style, ou seja, se você deseja por exemplo, deixar um div com fundo preto e texto branco, seu código ficaria assim:
+
+
+as propriedades css, devem ser separadas por;
+EXTERNA: Utilizando uma folha de estilo externa, você deverá "linka-la" na página através de uma tag própria que deve ser inserida entre as tags <head> e </head>.
+
+
+INTERNA: Utilizando uma folha de estilo interna, você deverá criar um arquivo css normalmente, porém ele será inserido na própria página entre as tags <head> e </head>, utilizando a tag <style>, todas as propriedades CSS devem ir dentro da tag style.
+

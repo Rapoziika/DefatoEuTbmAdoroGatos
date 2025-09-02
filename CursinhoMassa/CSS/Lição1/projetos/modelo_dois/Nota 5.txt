@@ -1,0 +1,16 @@
+Backgrounds
+A propriedade background é responsável pela definição das propriedades do fundo da página. Ela se divide em pequenas propriedades, como: color, image, repeat entre outras, veja mais detalhes a seguir.
+
+background-color: Define a cor que será utilizada no fundo da página através do código hexadecimal.
+
+background-image: Define a imagem que será utilizada no fundo da página, através do valor url(local da imagem)
+
+background-repeat: Define se a imagem aplicada no fundo da página irá ou não se repetir, os valores possíveis são: no-repeat (para que a imagem não seja repetida) repeat (para que a imagem seja repetida verticalmente e horizontalmente) repeat-x (para que a imagem seja repetida apenas horizontalmente) repeat-y (para que a imagem seja repetida apenas verticalmente)
+
+background-position: Define o posicionamento da figura no fundo da página, os valores possíveis são: bottom (insere a imagem na área inferior da página) center (insere a imagem centralizada na página) left (insere a imagem na área esquerda da página) right (insere a imagem na área direita da página) top (insere a imagem na área superior da página)
+
+background-position-x: Define o posicionamento horizontal da figura no fundo da página, os valores possíveis são: left (ajusta o posicionamento da imagem na área esquerda da página) center (ajusta o posicionamento da imagem centralizada na página) right (ajusta o posicionamento da imagem na área direita da página)
+
+background-position-y: Define o posicionamento vertical da figura no fundo da página, os valores possíveis são: top (ajusta o posicionamento da imagem na área superior da página) center (ajusta o posicionamento da imagem centralizada na página) bottom (ajusta o posicionamento da imagem na área inferior da página)
+
+AS PROPRIEDADES BACKGROUND-POSITION-X E BACKGROUND-POSITION-Y ESTÃO DISPONÍVEIS APENAS NOS NAVEGADORES INTERNET EXPLORER, GOOGLE CHROME, SAFARI e OPERA. O FIREFOX NÃO TEM SUPORTE A TAIS PROPRIEDADES ATÉ A DATA DE CRIAÇÃO DO CURSO."

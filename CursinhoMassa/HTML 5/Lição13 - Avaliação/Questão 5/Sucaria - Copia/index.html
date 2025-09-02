@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>Lanchonete Comaki</title>
+		<link href='http://fonts.googleapis.com/css?family=Signika:700,400' rel='stylesheet' type='text/css'>
+		<link href="estilo.css" rel="stylesheet"	/>
+	</head>
+	<body>
+		<audio autoplay>
+			<source src="lovegames.mp3">
+		</audio>
+		<!-- autoplay não está funcionando alternativamente
+		poderia colocar "controls logo ao lado do autoplay
+		para poder colocar a musica no site porem de uma
+		maneira mais manual -->
+		<div class="topo"><a class="voltar" href="#title">↑ TOPO ↑</a></div>
+		<header>
+			<h1 id="title">
+				Lanchonete<br />
+				Comaki
+			</h1>
+			<nav>
+				<ul>
+					<li><a href="#lanches">"Lanches & Salgados"</a></li>
+					<li><a href="#sucos">Sucos & Drinks</a></li>
+					<li><a href="#contato">Fale conosco :)</a></li>
+				</ul>
+			</nav>
+		</header>
+		<div class="div1_topo"></div>
+		<section id="div1">
+			<h2 id="lanches">Lanches & Salgados</h2>
+			<p class="texto">
+				Temos os melhores salgados da região, aceitamos encomendas :)
+			</p>
+			
+			<ul>
+				<li>Coxinha</li>
+				<li>Bolinha de Queijo</li>
+				<li>Kibe</li>
+				<li>Esfiha de Frango</li>
+				<li>Bolinha Caipira</li>
+				<li>Croissant de Queijo</li>
+				<li>Croissant de Frango</li>
+				<li>Folhado de 4 Queijos</li>
+				<li>Pão de Hamburguer</li>
+				<li>Pão de Quiejo</li>
+			</ul>
+			
+		</section>
+		<div class="div1_baixo"></div>
+		<section>
+			<h2 id="sucos">Sucos & Drinks</h2>
+			<p class="texto">
+				Refresque-se com nossos sucos e drinks :)
+			</p>
+			
+			<table>
+			<thead>
+				<tr><th colspan="3"> Escolha seu suco :)</tr></th>
+			</thead>
+			<tfoot>
+			<tr><th colspan="3"> os sucos podem ser feitos com agua e leite</th></tr>
+			</tfoot>
+			<tbody>
+					<tr><td>Suco</td>		<td>Jarra</td>		<td>Individual</td>
+					<tr><td>Laranja</td>	<td>R$10,00</td>	<td>R$3,50</td></tr>
+					<tr><td>Limão</td>		<td>R$8,00</td>		<td>R$3,00</td></tr>
+					<tr><td>Abacaxi</td>	<td>R$12,00</td>	<td>R$5,50</td></tr>
+					<tr><td>Morango</td>	<td>R$15,00</td>	<td>R$5,50</td></tr>
+					<tr><td>Maracujá</td>	<td>R$10,00</td>	<td>R$5,50</td></tr>
+					<tr><td>Banana</td>		<td>R$8,00</td>		<td>R$4,50</td></tr>
+			</tbody>
+			</table>
+		</section>
+		<div class="div2_topo" style="margin-top:40px;"></div>
+		<section id="div2">
+			<h2 id="contato">Onde Estamos?</h2>
+			<p class="texto">
+				Estamos localizados na Avenida 31 de Março, 397 em Votorantim/SP - Venha conhecer o melhor folhado da região!
+			</p>
+			<img src="imagens/komaki.png" alt="Comaki" />
+			<h2>Fale Conosco :)</h2>
+			<p class="texto">
+				Entre em contato conosco, estamos prontos para lhe atender :)
+			</p>
+			<form action="#">
+			<label for="txtNome">Nome:</label> 
+			<input type="text" id="txtNome"/><br />
+			<label for="txtEmail">Email:</label>
+			<input type="text" id="txtEmail"/><br />
+			<label for="txtMensagem">Mensagem:</label>
+			<input type="text" id="txtMensagem"><br />
+			<input type="submit" value="Enviar" id="btnEnviar">
+			</form>
+</section>
+		
+		<div class="div2_baixo"></div>
+		<footer style="font-size:10px; text-align:center;margin-top:-15px;color:#999999;">
+			<p>Feito por: Thor Hector Pacheco de Morais.</p>
+		</footer>
+		
+	</body>
+</html>

@@ -1,0 +1,160 @@
+﻿/* pior que era foreshadow */
+body{
+	min-width:960px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:12px;
+	background-color:#b5c884;
+	color:#36352e;
+	margin:0px;
+}
+/* fundo não quer trocar de cor T_T, preciso de ajuda... */
+/* nota... não ser burro como eu do passado e colocar um # em coisas feito body*/
+/*se alguma coisa deu errado, tu colocou algo de errado ou faltou algo no codigo...*/
+#container{
+	width:900px;
+	margin:0px auto;
+	height:100%;
+}
+#cabecalho{
+	width:100%;
+	background-color:#625f4d;
+	height:40px;
+	color:#ffffff;
+}
+#topo{
+	background-image:url(imagens/topo.png);
+	width:900px;
+	height:200px;
+	border-bottom:2px outset #5bc884;
+}
+#topo h1{
+	width:320px;
+	font-size:100px;
+	color:#ffffff;
+	margin:0px 0px 0px 30px;
+	border-bottom:3px groove #ffffff;
+}
+#topo h2{
+	width:320px;
+	font-size:25px;
+	color:#ffffff;
+	margin:10px 0px 0px 30px;
+	position:absolute;
+}
+#logo{
+	float:left;
+}
+#menu{
+	background:#e0ddc7 url(imagens/sombra.png) repeat-y right;
+	/*uau simplificação :O */
+	float:left;
+	width:180px;
+	min-height:400px;
+	padding:10px;
+}
+#menu a:link{
+	float:left;
+	clear:both;
+	padding:5px;
+	text-decoration:none;
+	border-bottom:1px dashed #d4d0af;
+	display:block;
+	width:160px;
+	color:#373737;
+	font-size:14px;
+	text-transform:capitalize;
+}
+#menu a:hover{
+	background-color:#e8e6d9;
+	border-left:3px solid #373737;
+}
+#menu a:visited{
+	color:#373737;
+	border-bottom:1px dashed #d4d0af;
+}
+#menu a:active{
+	background-color:#373737;
+	border-left:3px solid #373737;
+	color:#e8e6d9;
+}
+.titulo{
+	font-size:16px;
+	margin:0px 0px 20px 0px;
+	color:#78776e;
+}
+#corpo{
+	background-color:#e8e6d9;
+	float:right;
+	width:680px;
+	min-height:400px;
+	padding:10px;
+}
+#corpo fieldset{
+	border:1px solid #d4d0af;
+	padding:5px;
+	width: 500px;
+	margin:0px auto;
+}
+#corpo fieldset label{
+	float: left;
+	width: 80px;
+	font-size: 15px;
+}
+#corpo fieldset input{
+	float:left;
+	clear:right;
+	width:400px;
+	padding:5px;
+	border:solid 1px #eeede7;
+	margin-bottom:5px;
+}
+#corpo fieldset textarea{
+	float:left;
+	clear:right;
+	width:400px;
+	height:100px;
+	padding:5px;
+	border:solid 1px #eeede7;
+	margin-bottom:5px;
+	max-width:400px;
+	max-height:100px;
+	min-width:400px;
+	min-height:100px;
+}
+#corpo fieldset .enviar{
+	clear:both;
+	margin:5px 10px 5px 410px;
+	background-color:#eae8df;
+	border:1px groover #d4d2c7;
+	width:80px;
+	color:#53ae4a;
+	cursor:pointer;
+}
+#corpo fieldset .enviar:active{
+	background-color:#d4d2c7;
+}
+/*yay eu escrevi tudo isso e o html apenas com um guia e em 1 aula só yipeee, 
+proxima aula só o exercicio de fixação e vou para lição 5 :DDDDD */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
